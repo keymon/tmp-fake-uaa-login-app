@@ -6,10 +6,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
+    content-type (0.0.1)
+      parslet (~> 1.5)
     execjs (2.7.0)
     haml (4.0.7)
       tilt
     multi_json (1.12.1)
+    parslet (1.8.2)
     puma (3.6.0)
     rack (1.6.4)
     rack-coffee (1.0.3)
@@ -39,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  content-type
   haml
   puma
   rack-coffee
@@ -47,4 +51,4 @@ DEPENDENCIES
   sinatra-reloader
 
 BUNDLED WITH
-   1.13.6
+   1.16.1

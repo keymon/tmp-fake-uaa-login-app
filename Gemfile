@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'content-type'
 gem 'puma'
 gem 'rack-coffee'
 
